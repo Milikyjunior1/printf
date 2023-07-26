@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printf_integer - prints intiger number
+ * printf_int - prints intiger number
  * @args: number arguements
  * @printed: the printed characters
  * Return: printed charcaters

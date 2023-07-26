@@ -3,7 +3,7 @@
 #define MAX_HEX_DIGITS 16
 
 /**
- * printf_pointer - prints a binary number
+ * printf_point - prints a binary number
  * @args: number of arguments
  * @printed: the printed characters
  * Return: Printed characters

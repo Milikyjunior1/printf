@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * printf_binary - prints a binary number
+ * printf_bin - prints a binary number
  * @num: numberl of arguments
  * @printed: the printed characters
  * Return: Printed characters
@@ -9,7 +9,7 @@
 
 int printf_bin(unsigned int num, int printed)
 {
-	int bin[32] = {0};
+	int binary[32] = {0};
 	int i = 0;
 
 	if (num == 0)
