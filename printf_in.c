@@ -7,7 +7,7 @@
  * Return: printed charcaters
  */
 
-int printf_integer(va_list args, int printed)
+int printf_int(va_list args, int printed)
 {
 	int num = va_arg(args, int);
 	int digits = 0;

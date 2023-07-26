@@ -2,20 +2,20 @@
 
 /**
  * printf_string - prints a string
- * @args: numberof arguements
+ * @args: number of arguments
  * @printed: the printed characters
- * Return: printed charcaters
+ * Return: Printed characters
  */
 
-int printf_string(va_list args, int printed)
+int printf_str(va_list args, int printed)
 {
-	char *string = va_arg(args, char *);
+	char *str = va_arg(args, char *);
 
-	while (*string != '\0')
+	while (*str != '\0')
 	{
-		_putchar(*string);
+		_putchar(*str);
 		printed++;
-		string++;
+		str++;
 	}
 	return (printed);
 }

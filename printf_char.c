@@ -2,9 +2,9 @@
 
 /**
  * printf_char - prints a binary number
- * @args: the arguements to use
+ * @args: Arguments to use
  * @printed: the printed characters
- * Return: printed charcaters
+ * Return: Printed characters
  */
 
 int printf_char(va_list args, int printed)

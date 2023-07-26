@@ -4,12 +4,12 @@
 
 /**
  * printf_pointer - prints a binary number
- * @args: numberof arguements
+ * @args: number of arguments
  * @printed: the printed characters
- * Return: printed charcaters
+ * Return: Printed characters
  */
 
-int printf_pointer(va_list args, int printed)
+int printf_point(va_list args, int printed)
 {
 	void *ptr = va_arg(args, void*);
 	unsigned long num = (unsigned long) ptr;
